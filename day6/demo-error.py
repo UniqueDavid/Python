@@ -1,0 +1,9 @@
+#python出错处理
+try:
+	print('try...')
+	r=10/0
+	print('result:',r)
+except ZeroDivisionError as e:
+	print('except:',e)
+finally:
+	print('finally...')
